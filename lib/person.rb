@@ -4,6 +4,7 @@ class Person
     @name = person_name
   end
 
-beyonce = Person.new("Beyonce")
+beyonce = Person.new
+beyonce.name = "Beyonce"
   
 end 
