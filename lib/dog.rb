@@ -8,6 +8,6 @@ class Dog
     @name
   end 
   
-  fido = Dog.name("Fido")
+  fido = Dog.name
   
 end 
