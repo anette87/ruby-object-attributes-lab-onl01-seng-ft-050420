@@ -8,7 +8,8 @@ class Dog
     @name
   end 
   
-fido = Dog.name
+fido = Dog.new("Fido")
+
 
   
 end 
