@@ -1,9 +1,5 @@
 class Person
   
-  def initialize(name)
-    @name = name 
-  end 
-  
   def name= (person_name)
     @name = person_name
   end
@@ -20,8 +16,8 @@ class Person
     @job
   end 
     
-beyonce = Person.new("Beyonce")
-beyonce.name
+beyonce = Person.new
+beyonce.name = "Beyonce"
 beyonce.job = "Singer"
   
 end 
