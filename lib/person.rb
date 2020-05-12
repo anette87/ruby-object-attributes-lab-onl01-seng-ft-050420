@@ -20,8 +20,7 @@ class Person
     @job
   end 
     
-beyonce = Person.new
-beyonce.name = "Beyonce"
+beyonce = Person.new("Beyonce")
 beyonce.job = "Singer"
   
 end 
